@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Schuber Lampen</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="text.js"></script>
+  <script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container_bild">
+    <a href="index.html"><img src="assets/4c249b80-b9e3-44f3-94e8-54295e16b2e8.png"></a>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href='index.html'>Home</a></li>
+      <li><a href='produkte.html'>Produkte</a></li>
+      <li><a href='team.html'>Team</a></li>
+      <li><a href='kontaktformular.html'>Kontakt</a></li>
+      <li><a href='aboutUs.html'>Über Uns</a></li>
+    </ul>
+  </nav>
+
+
+  <!--Slider Bilder-->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> <img src="assets/Produkte/Edan.jpg"> </div>
+      <div class="swiper-slide"><img src="assets/Produkte/Pierre.jpg"></div>
+      <div class="swiper-slide"><img src="assets/Produkte/Felix.jpg"></div>
+      <br>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!--JS für Slider-->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "progressbar",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+
+  <div class="h-showroom">
+    <h2>Showroom</h2>
+    <br>
+    <p>In unserem Showroom in Rümlang finden Sie alle unsere Produkte der diesjährigen Serie ausgestellt. Kommen Sie
+      vorbei und lassen Sie Sich inspirieren!
+    </p>
+    <br>
+
+    <div class="p-container">
+      <div class="karte2">
+        <div class="lampen-img">
+          <img src="assets/Produkte/Hutomo.jpg">
+        </div>
+        <div class="beschreibung">
+          <h1>Hutomo</h1>
+        </div>
+        <div class="button-show">
+          <a href="produkte.html" class="ansehen">Ansehen</a>
+        </div>
+      </div>
+
+      <div class="karte2">
+        <div class="lampen-img">
+          <img src="assets/Produkte/Jonny.jpg">
+        </div>
+        <div class="beschreibung">
+          <h1>Jonny</h1>
+        </div>
+        <div class="button-show">
+          <a href="produkte.html" class="ansehen">Ansehen</a>
+        </div>
+      </div>
+
+      <div class="karte2">
+        <div class="lampen-img">
+          <img src="assets/Produkte/Kari.jpg">
+        </div>
+        <div class="beschreibung">
+          <h1>Kari</h1>
+        </div>
+        <div class="button-show">
+          <a href="produkte.html" class="ansehen">Ansehen</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="full-newsletter">
+    <div class="newsletter">
+      <h1>Newsletter</h1>
+      <hr>
+      <p>Geben Sie Ihre E-Mail in die Box ein um die aktuellen News zu erhalten</p>
+      <form class="newslteer1">
+        <input type="email" placeholder="Email">
+        <br>
+        <button type="submit">Jetzt Absenden</button>
+      </form>
+    </div>
+  </div>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Über Uns</h4>
+          <ul>
+            <li><a href="AboutUs.html">Über Uns</a></li>
+            <li><a href="AboutUs.html">Herstellung & Design</a></li>
+            <li><a href="AboutUs.html">Schuber Holding</a></li>
+            <li><a href="AboutUs.html">Dienstleistungen</a></li>
+            <li><a href="AboutUs.html">SmartSchuber</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hilfe</h4>
+          <ul>
+            <li><a href="">Zahlung</a></li>
+            <li><a href="">Aktionscodes & Gutscheine</a></li>
+            <li><a href="">Geschenkkarten</a></li>
+            <li><a href="">Garantie & Reperatur</a></li>
+            <li><a href="">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <form>
+            <i class="far fa-envelope"></i>
+            <input type="email" id="email" placeholder="Email eingeben" required>
+            <button type="submit"><i class="fas fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+  </footer>
+
+  <div class="endfooter">
+    <div class="container-endfooter">
+      <div class="endfooter-col">
+        <a href="">AGB</a></li>
+        <span class="line">|</span>
+        <a href="">Datenschutz </a></li>
+        <span class="line">|</span>
+        <a href="">Impressum </a></li>
+        <p>2022 Schuber Lampen - Alle Rechte vorbehalten</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
