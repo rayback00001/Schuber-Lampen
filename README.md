@@ -1,1 +1,1 @@
-Ich habe eine Webseite programmiert mit HTML & CSS zu einer imaginären Lampenfirma. Das war ein Projekt zum IPT. 
+I programmed a website with HTML & CSS for an imaginary lamp company. This was a project for the IPT.
